@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppie website</title>
+    <meta name="title" content="Shoppie - Ecommerce website">
+    <meta name="description" content="this is a description of Ecommerce webiste">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font.css">
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Preload image -->
+    <link rel="preload" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+    <!-- HEADER --> 
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" width="132" height="27" alt="logo shoppie">
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#" class="navbar-link">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Boutique</a>
+                    </li>
+                </ul>
+
+                <button class="card-btn">
+                    <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                    <span class="span">Panier (02)</span>
+                </button>
+    
+                <a href="#" class="btn">Nous contacter</a>
+            </nav>
+
+            <button class="nav-open-btn" aria-label="toggle menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <div class="hero">
+                <div class="container">
+                    <div class="hero-container">
+                        <p class="hero-subtitle title">
+                            $120.00
+                        </p>
+                        <h1 class="h1 hero-title title">
+                            Man summer collection
+                        </h1>
+                        <p class="hero-text">
+                            This is the factor that sets us apart from competition and allows us deliver a specialist business service team applies its ranging experience determining
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            <span class="span">
+                                Achetez maintenant
+                            </span>
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                    </div>
+
+                    <div class="hero-banner">
+                        <figure class="img-holder" style="--width: ; --height: ;" >
+                            <img src="./assets/images/hero-banner.png" width="704" height="700" alt="" class="img-cover">
+                        </figure>
+
+                        <img src="/assets/images/hero-shape-1.png" width="255" height="249" alt="" class="shape shape-1">
+                    </div>
+
+                    <img src="/assets/images/hero-shape-2.png" width="360" height="133" alt="" class="shape shape-2">
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- Custom js links -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- Ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
