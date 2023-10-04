@@ -212,6 +212,7 @@ body {
 
 .section-title {
   margin-block-end: 45px;
+  border: 5px solid var(--border-eerie-black);
 }
 
 .product-btn {
@@ -602,7 +603,7 @@ address .footer-text {
   }
 
   .section {
-    padding-block: 150px;
+    padding-block: 110px;
   }
 
   .scrollbar-item {
